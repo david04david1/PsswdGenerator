@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PsswdGenerator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <div class="cabecera">
+        <h1>Safe Psswd Generator</h1>
+    </div>
+
+    <div class="generador">
+
+        <span class="alerta">Contraseña copiada</span>
+
+        <div class="input-cont">
+            <input type="text" disabled id="password">
+            <div class="copy"></div>
+        </div>
+
+
+        <label>Longitud de contraseña</label>
+
+        <input type="range" id="range" min="8" max="16" value="8">
+        <p class="longitud"></p>
+        <button>Generar Nueva contraseña</button>
+        <footer> DGR & JMV </footer>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
